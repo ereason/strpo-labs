@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Toast Kotlin</string>
+    <string name="screen_title">Toast на Kotlin</string>
+    <string name="screen_subtitle">Лабораторная работа 5</string>
+    <string name="show_text_toast">Показать текстовый Toast</string>
+    <string name="kotlin_toast_message">Пора изучать Kotlin!</string>
+    <string name="show_image_toast">Показать Toast со Swift</string>
+    <string name="swift_toast_message">Можно и Swift изучать!</string>
+</resources>

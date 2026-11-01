@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Toast Java</string>
+    <string name="screen_title">Toast на Java</string>
+    <string name="screen_subtitle">Лабораторная работа 5</string>
+    <string name="show_text_toast">Показать текстовый Toast</string>
+    <string name="java_toast_message">Пора изучать Java!</string>
+    <string name="show_image_toast">Показать Toast со Swift</string>
+    <string name="swift_toast_message">Можно и Swift изучать!</string>
+    <string name="show_custom_toast">Показать Toast из XML</string>
+    <string name="swift_icon_description">Значок Swift</string>
+</resources>
