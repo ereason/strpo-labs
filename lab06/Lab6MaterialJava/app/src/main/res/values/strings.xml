@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Snackbar Java</string>
+    <string name="screen_title">Material Design на Java</string>
+    <string name="screen_description">Варианты Snackbar из методических указаний</string>
+    <string name="basic_button">Обычный Snackbar</string>
+    <string name="duration_button">Показать на 8 секунд</string>
+    <string name="indefinite_button">Показать до закрытия</string>
+    <string name="dismiss_button">Закрыть сообщение</string>
+    <string name="color_button">Изменить цвета</string>
+    <string name="rounded_button">Закругленный Snackbar</string>
+    <string name="basic_message">Сообщение из Java-приложения</string>
+    <string name="duration_message">Это сообщение показывается 8 секунд</string>
+    <string name="indefinite_message">Сообщение закрывается вручную</string>
+    <string name="colored_message">Цвет текста и фона изменен</string>
+    <string name="rounded_message">Snackbar с отступами и закруглением</string>
+    <string name="action_message">Изучить Swift?</string>
+    <string name="action_yes">Да</string>
+    <string name="action_result">Отлично!</string>
+    <string name="dismiss_action">Закрыть</string>
+    <string name="fab_description">Показать Snackbar с действием</string>
+    <string name="event_initial">Последнее событие: еще не было</string>
+    <string name="event_format">Последнее событие: %1$s</string>
+    <string name="bottom_panel">Нижняя панель поднимается со Snackbar</string>
+</resources>
