@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="dynamic_group" type="id" />
+    <item name="dynamic_first" type="id" />
+    <item name="dynamic_second" type="id" />
+</resources>

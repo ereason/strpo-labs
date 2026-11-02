@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/popup_group_one">
+        <item
+            android:id="@+id/popup_one"
+            android:icon="@drawable/ic_swift"
+            android:title="@string/popup_item_one" />
+        <item
+            android:id="@+id/popup_two"
+            android:title="@string/popup_item_two" />
+        <item
+            android:id="@+id/popup_three"
+            android:title="@string/popup_item_three">
+            <menu>
+                <item
+                    android:id="@+id/popup_submenu_item"
+                    android:title="@string/popup_submenu" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:id="@+id/popup_group_two">
+        <item
+            android:id="@+id/popup_checked_item"
+            android:checkable="true"
+            android:checked="true"
+            android:title="@string/popup_checked" />
+        <item
+            android:id="@+id/popup_disabled_item"
+            android:enabled="false"
+            android:title="@string/popup_disabled" />
+        <item
+            android:id="@+id/popup_six"
+            android:title="@string/popup_item_six" />
+    </group>
+</menu>

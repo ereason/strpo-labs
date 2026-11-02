@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Lab7" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryVariant">@color/green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/amber_accent</item>
+        <item name="colorOnSecondary">@color/green_dark</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/screen_background</item>
+        <item name="android:windowBackground">@color/screen_background</item>
+    </style>
+</resources>

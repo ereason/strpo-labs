@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Меню на Kotlin</string>
+    <string name="screen_heading">Обычное меню и PopupMenu</string>
+    <string name="screen_hint">Откройте меню в верхней панели или нажмите на любой элемент ниже.</string>
+    <string name="result_label">Результат выбора</string>
+    <string name="initial_result">Пункт меню пока не выбран</string>
+    <string name="popup_button">Открыть PopupMenu</string>
+    <string name="popup_text">Нажмите на этот текст</string>
+    <string name="swift_description">Логотип Swift, открывающий PopupMenu</string>
+    <string name="swift_hint">Нажмите на логотип Swift</string>
+    <string name="dynamic_button">Создать меню программно</string>
+    <string name="event_initial">Событие PopupMenu появится здесь</string>
+    <string name="popup_opened">PopupMenu открыто</string>
+    <string name="popup_closed">PopupMenu закрыто</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_java">Java</string>
+    <string name="action_kotlin">Kotlin</string>
+    <string name="action_python">Python</string>
+    <string name="selected_settings">Выбран пункт Settings</string>
+    <string name="selected_language">Выбран язык: %1$s</string>
+    <string name="popup_item_one">Popup menu item 1</string>
+    <string name="popup_item_two">Popup menu item 2</string>
+    <string name="popup_item_three">Popup menu item 3</string>
+    <string name="popup_submenu">Подменю</string>
+    <string name="popup_checked">Пункт с флажком</string>
+    <string name="popup_disabled">Отключенный пункт</string>
+    <string name="popup_item_six">Popup menu item 6</string>
+    <string name="selected_popup">Выбран пункт: %1$s</string>
+    <string name="dynamic_first">slot1</string>
+    <string name="dynamic_second">slot2</string>
+    <string name="dynamic_selected">Выбран программный пункт: %1$s</string>
+</resources>
