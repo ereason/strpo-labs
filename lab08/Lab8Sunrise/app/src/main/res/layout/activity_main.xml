@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky">
+
+    <ImageView
+        android:id="@+id/sky"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:importantForAccessibility="no"
+        android:src="@drawable/sky" />
+
+    <ImageView
+        android:id="@+id/sun"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="150dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/sun" />
+
+    <ImageView
+        android:id="@+id/ground"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_gravity="bottom"
+        android:importantForAccessibility="no"
+        android:scaleType="fitXY"
+        android:src="@drawable/ground" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="135dp"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="70dp"
+        android:contentDescription="@string/balloon_description"
+        android:scaleType="fitCenter"
+        android:src="@drawable/hot_air_balloon" />
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="54dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAccessibility="no"
+            android:src="@drawable/clock_face" />
+
+        <ImageView
+            android:id="@+id/minuteHand"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAccessibility="no"
+            android:src="@drawable/minute_hand" />
+
+        <ImageView
+            android:id="@+id/hourHand"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAccessibility="no"
+            android:src="@drawable/hour_hand" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="52dp"
+        android:text="@string/scene_title"
+        android:textColor="@color/cream"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</FrameLayout>
